@@ -27,9 +27,6 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="p-4 border-b">
-          BLOG
-        </div>
         {children}
       </body>
     </html>
